@@ -1,0 +1,38 @@
+img{
+    padding-right: 10px;
+    float: left;;
+}
+
+
+
+.summary{
+    clear: both;
+}
+.grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 30px;
+    gap:20px;
+    row-gap: 40px;
+}
+
+.first {
+    height: 60px;
+    grid-column: span 2;
+}
+
+.card{
+    color: white;
+    text-align: center;
+    border-radius: 2cqi;
+    background-color: rgb(88, 88, 222);
+}
+
+.skill-card{
+    height: 320px;
+}
+
+.others{
+    margin-top: 300px;
+}
